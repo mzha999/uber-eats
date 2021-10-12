@@ -25,7 +25,7 @@ let cartReducer = (state = defaultState, action) => {
           restaurantName: action.payload.restaurantName,
         };
       }
-      console.log(newState, "👉");
+      // console.log(newState, "👉");
       return newState;
     }
 

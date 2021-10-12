@@ -45,7 +45,7 @@ const foods = [
   },
 ];
 
-export default function RestaurantDetail({ route, navigation }) {
+export default function RestaurantDetail({ route, navigation }) {     ///route,
   return (
     <View>
       <About route={route} />
