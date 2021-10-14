@@ -4,31 +4,29 @@ import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityI
 
 export const localRestaurants = [
   {
-    name: "Beachside Bar",
+    name: "The Coffee Club Glenfield Mall",
     image_url:
-      "https://static.onecms.io/wp-content/uploads/sites/9/2020/04/24/ppp-why-wont-anyone-rescue-restaurants-FT-BLOG0420.jpg",
+    "https://www.thecoffeeclub.co.nz/media/1803/903-after-refurb.jpg",
     categories: ["Cafe", "Bar"],
     price: "$$",
-    reviews: 1244,
-    rating: 4.5,
+    reviews: 14,
+    rating: 4.1,
   },
   {
-    name: "Benihana",
-    image_url:
-      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmVzdGF1cmFudCUyMGludGVyaW9yfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80",
+    name: "The Shelf",
+    image_url: "https://theshelfcafe.co.nz/wp-content/uploads/2020/04/about1-1024x796.png",
     categories: ["Cafe", "Bar"],
     price: "$$",
-    reviews: 1244,
-    rating: 3.7,
+    reviews: 33,
+    rating: 4.7,
   },
   {
-    name: "India's Grill",
-    image_url:
-      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmVzdGF1cmFudCUyMGludGVyaW9yfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80",
-    categories: ["Indian", "Bar"],
+    name: "Hansan Newmarket",
+    image_url: "https://www.google.com/maps/uv?pb=!1s0x6d0d4879e4801d8b%3A0x42797b8899bf5dd4!3m1!7e115!4shttps%3A%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNEY4zFJxpMeeZMtWFvSmZm_YwZXyz7aLhy6H5q%3Dw239-h160-k-no!5sHansan%20(Newmarket)%20-%20Google%20%E6%90%9C%E7%B4%A2!15sCgIgAQ&imagekey=!1e10!2sAF1QipNEY4zFJxpMeeZMtWFvSmZm_YwZXyz7aLhy6H5q&hl=zh-CN&sa=X&ved=2ahUKEwjr3OOvg8vzAhXpzTgGHeJIBOcQoip6BAhuEAM#",
+    categories: ["Vietnamese", "Restaurant"],
     price: "$$",
-    reviews: 700,
-    rating: 4.9,
+    reviews: 406,
+    rating: 4.7,
   },
 ];
 export default function RestaurantItems ({ navigation, restaurantData }){
