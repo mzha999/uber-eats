@@ -9,14 +9,14 @@ import SearchBar from "../components/SearchBar";
 import { Divider } from "react-native-elements";
 import BottomTabs from "../components/BottomTabs";
 import { useNavigation } from "@react-navigation/core";
+import {YELP_API_KEY} from '@env'
 
-const YELP_API_KEY =
-  "RSOYoVY48Q7-exfaglXcsKjup28nPgrnGyNNM6JOIXZVbfQ1Oh0wyDgvehq_iZjZy9viUrdgzCBe5B5HfduPBKqHqwr7ZGE_ti8AP6e5S8g6N68-PdYF_AKhqrhjYXYx";
 const Home = () => {
   const [restaurantData, setRestaurantData] = useState(localRestaurants);
   const [city, setCity] = useState("Auckland");
   const [activeTab, setActiveTab] = useState("Delivery");
   const navigation = useNavigation();
+
   const getRestaurantsFromYelp = () => {
     const yelpUrl = `https://api.yelp.com/v3/businesses/search?term=restaurants&location=${city}`;
     const apiOptions = {
@@ -53,7 +53,7 @@ const Home = () => {
         />
       </ScrollView>
       <Divider width={1} />
-      <BottomTabs />
+      <BottomTabs city={city}/>
     </SafeAreaView>
   );
 };
