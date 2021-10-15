@@ -3,7 +3,7 @@ import React from "react";
 import { View, Text, TouchableOpacity } from "react-native";
 import FontAwesome5 from "react-native-vector-icons/FontAwesome5";
 
-export default function BottomTabs(city) {
+export default function BottomTabs({city}) {
   const navigation = useNavigation()
   return (
     <View
