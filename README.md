@@ -37,4 +37,4 @@ This project can be run from a web browser or the Expo client app. You may find 
 
 - Duo to the lockdown of Auckland, the delevery service is not avaiable currently, so the restaurent and food will not be dynamic, please try search different city of all over the world, such as New York.
 
-
+- Food was mocked, because we don't have the API to retrieve the menu

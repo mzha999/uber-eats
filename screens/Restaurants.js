@@ -35,7 +35,7 @@ export default function Restaurants (props){
   const [restaurantsData, setRestaurantsData] = useState(localRestaurants);
   const navigation = useNavigation();
   let city = props.route.params.city
-  console.log(props)
+
   const getRestaurantsFromYelp = () => {
     const yelpUrl = `https://api.yelp.com/v3/businesses/search?term=restaurants&location=${city}`;
     const apiOptions = {
